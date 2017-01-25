@@ -7,5 +7,6 @@ from shapes.arrow import Arrow
 from plots.plot import plot_shapes as ps
 
 
-arrow = Arrow(2,2)
+arrow = Arrow()
+print arrow.x_vertex
 ps(arrow)
