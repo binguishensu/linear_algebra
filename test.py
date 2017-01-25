@@ -1,17 +1,11 @@
 """
-Created by Faggioni
-Python Script
-@author: Miguel Faggioni
+Demo of a PathPatch object.
 """
-
-from transformations import rotations
-import numpy as np
-import pylab
-import matplotlib.pyplot as plt
+import matplotlib.path as mpath
 import matplotlib.patches as mpatches
+from shapes.arrow import Arrow
+from plots.plot import plot_shapes as ps
 
-fig, ax = plt.subplots()
-mpatches.Arrow(0, 0, 1, 1, width=2)
-plt.grid()
-plt.show()
 
+arrow = Arrow(2,2)
+ps(arrow)

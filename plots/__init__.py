@@ -4,5 +4,6 @@ Python Script
 @author: Miguel Faggioni
 
 """
+all = ["plot"]
 
 

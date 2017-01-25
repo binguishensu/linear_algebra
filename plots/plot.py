@@ -5,11 +5,11 @@ Python Script
 """
 import matplotlib.pyplot as plt
 
-def plot(title = 'Plot', x, y):
-	plt.plot(x,y)
-	plt.xlabel('X - Coodinate')
-	plt.ylabel('Y - Coordinate')
+def plot_shapes(shape):
+	fig, ax = plt.subplots()
+	x, y = zip(*shape.path.vertices)
+	line, = ax.plot(x,y)
+	plt.grid()
+	plt.axis([-20,20,-20,20])
 	plt.show()
 
-def plot_shape(figure,title='Figure Plot'):
-	plt.plot(figure)
