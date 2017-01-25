@@ -1,2 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
+/.idea
 *.pyc
+.idea/encodings.xml
+.idea/linear_algebra.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
