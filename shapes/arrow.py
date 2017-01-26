@@ -9,18 +9,10 @@ from shapes.shape import Shape
 
 class Arrow(Shape):
 
-	def __init__(self,origin_x = 0,origin_y = 0):
-		Path = mpath.Path
-		path_data = [
-		    (Path.MOVETO, (0 + origin_x,0 + origin_y)),
-		    (Path.LINETO, (5 + origin_x,0 + origin_y)),
-		    (Path.LINETO, (5 + origin_x,1 + origin_y)),
-		    (Path.LINETO, (7 + origin_x,0 + origin_y)),
-		    (Path.LINETO, (5 + origin_x, -1 + origin_y)),
-		    (Path.CLOSEPOLY, (5 + origin_x, 0 + origin_y))
-		    ]
-		codes, verts = zip(*path_data)
-		self.path = mpath.Path(verts, codes)
-		self.x_vertex, self.y_vertex = zip(*self.path.vertices)
-		self.vertex = self.path.vertices
+	def __init__(self):
+		self.path = [[0,0],[5,0],[5,1],[7,0],[5,-1],[5,0]]
+		verts_x, verts_y = zip(*self.path)
+		super(Arrow, self).__init__(list(verts_x), list(verts_y))
 
+
+	

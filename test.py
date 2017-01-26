@@ -1,12 +1,14 @@
 """
-Demo of a PathPatch object.
+Created by Faggioni
+Python Script
+@author: Miguel Faggioni
 """
-import matplotlib.path as mpath
-import matplotlib.patches as mpatches
 from shapes.arrow import Arrow
 from plots.plot import plot_shapes as ps
 
 
 arrow = Arrow()
-print arrow.x_vertex
+arrow.rotate(235)
+arrow.scale(2)
+arrow.translate(2,2)
 ps(arrow)
