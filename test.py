@@ -1,3 +1,4 @@
+
 """
 Created by Faggioni
 Python Script
@@ -10,5 +11,5 @@ from plots.plot import plot_shapes as ps
 arrow = Arrow()
 arrow.rotate(235)
 arrow.scale(2)
-arrow.translate(2,2)
+arrow.mirror('x')
 ps(arrow)
