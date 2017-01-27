@@ -1,6 +1,8 @@
 # linear_algebra
 
-##Linear Algebra Applications
+####Linear Algebra Applications
 
-Repository for Educational Proposes for the course of Linear Algebra dictated in the Universidad Metropolitana, Caracas. Venezuela
+Applications from the course on Linear Algebra dictated in the Universidad Metropolitana, Caracas. Venezuela
+ 
+######Repository for Educational proposes
 
