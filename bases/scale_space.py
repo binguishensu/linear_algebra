@@ -4,7 +4,8 @@ Python Script
 @author: Miguel Faggioni
 """
 
-from numpy import matmul, matrix, identity
+from numpy import identity
+
 
 def scale_by_factor(scale):
 	return scale * identity(2)
