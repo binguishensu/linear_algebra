@@ -1,8 +1,18 @@
 # Created by .ignore support plugin (hsz.mobi)
 /.idea
+
+# Compile Files
 *.pyc
+
+#IDE Files
 .idea/encodings.xml
 .idea/linear_algebra.iml
 .idea/misc.xml
 .idea/modules.xml
 .idea/workspace.xml
+
+#Virtuals Environments
+/virtualsenv
+
+
+/linear_algebra.egg-info

@@ -1,15 +1,17 @@
 """
-Created by Faggioni
-Python Script
-@author: Miguel Faggioni
+	Created by Faggioni
+	Python Script
+	@author: Miguel Faggioni
 """
+
+
 from bases.rotate_space import rotate_by_angle
 from bases.scale_space import scale_by_factor
 from bases.mirror_space import mirror_by_x, mirror_by_y
 from numpy import matmul
 
 
-class Shape(object):
+class Shape:
 
 	def __init__(self, verts_x, verts_y):
 		self.verts_x = verts_x

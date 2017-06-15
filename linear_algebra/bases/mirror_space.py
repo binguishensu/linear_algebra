@@ -1,8 +1,11 @@
+
 """
-Created by Faggioni
-Python Script
-@author: Miguel Faggioni
+	Created by Faggioni
+	Python Script
+	@author: Miguel Faggioni
 """
+
+
 from numpy import matrix
 
 
