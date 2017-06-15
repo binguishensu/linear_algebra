@@ -1,8 +1,10 @@
 """
-Created by Faggioni
-Python Script
-@author: Miguel Faggioni
+	Created by Faggioni
+	Python Script
+	@author: Miguel Faggioni
 """
+
+
 import math
 from numpy import matrix
 
