@@ -1,3 +1,9 @@
+"""
+    Created by Faggioni
+    Python Script
+    @author: Miguel Faggioni
+"""
+
 from setuptools import setup
 
 setup(name='linear_algebra',
